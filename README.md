@@ -4,34 +4,36 @@ Awesome Deep Learning for Natural Language Processing (NLP) [![Awesome](https://
 Table of Contents
 ----
 
-- __[Courses ](#courses)__
+- __[Courses](#courses)__
 - __[Books](#books)__
+- __[Tutorials](#tutorials)__
 - __[Talks / Lectures](#talks)__
-- __[Frameworks](#frameworks)__
+- __[Frameworks / Models](#frameworks)__
 - __[Papers](#papers)__
 - __[Blog Posts](#blog-posts)__
-- __[Researchers](#researchers)__
 - __[Datasets](#datasets)__
-- __[Demos](#demos)__
+- __[Word Embeddings / Word Vectors](#word-embeddings)__
 - __[Contributing](#contributing)__
 
 Courses
 ----
-1. CS224d: Deep Learning for Natural Language Processing from Stanford
-	- [Course homepage](http://web.stanford.edu/class/cs224n/) A complete survey of the field with videos, lecture slides, and sample student projects.
-	- [Course Lectures](https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6) Video playlist.
-	- [Course notes](https://github.com/stanfordnlp/cs224n-winter17-notes) Probably the best "book" on DL for NLP.
+1. NLP with Deep Learning / CS224N from Stanford (Winter 2019)
+	- [Course homepage](http://web.stanford.edu/class/cs224n/index.html) A complete survey of the field with videos, lecture slides, and sample student projects.
+	- [Course lectures](https://www.youtube.com/watch?v=8rXD5-xhemo&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z) Video playlist.
+	- [Previous course notes](https://github.com/stanfordnlp/cs224n-winter17-notes) Probably the best "book" on DL for NLP.
+	- [Course code](https://github.com/DSKSD/DeepNLP-models-Pytorch) Pytorch implementations of various Deep NLP models in cs-224n.
 1. Neural Networks for NLP from Carnegie Mellon University
-	- [Coures homepage](http://phontron.com/class/nn4nlp2017/)
-	- [Course Lectures](https://www.youtube.com/user/neubig/videos)
+	- [Course homepage](http://phontron.com/class/nn4nlp2017/)
+	- [Course lectures](https://www.youtube.com/user/neubig/videos)
 	- [Course code](https://github.com/neubig/nn4nlp2017-code/)
 1. Deep Learning for Natural Language Processing from University of Oxford and DeepMind
-	- [Coures homepage](https://www.cs.ox.ac.uk/teaching/courses/2016-2017/dl/)
-	- [Coures Slides](https://github.com/oxford-cs-deepnlp-2017/lectures)
-	- [Course Lectures](https://www.youtube.com/playlist?list=PL613dYIGMXoZBtZhbyiBqb0QtgK6oJbpm)
+	- [Course homepage](https://www.cs.ox.ac.uk/teaching/courses/2016-2017/dl/)
+	- [Course slides](https://github.com/oxford-cs-deepnlp-2017/lectures)
+	- [Course lectures](https://www.youtube.com/playlist?list=PL613dYIGMXoZBtZhbyiBqb0QtgK6oJbpm)
 
 Books
 -----
+1. [Deep Learning with Text: Natural Language Processing (Almost) from Scratch with Python and spaCy](https://www.amazon.com/Deep-Learning-Text-Approach-Processing/dp/1491984414) by Patrick Harrison and Matthew Honnibal 
 1. [Neural Network Methods in Natural Language Processing](https://www.amazon.com/gp/product/1627052984) by Yoav Goldberg and Graeme Hirst
 1. [Deep Learning in Natural Language Processing](http://www.springer.com/us/book/9789811052088) by Li Deng and Yang Liu
 1. [Natural Language Processing in Action](https://www.manning.com/books/natural-language-processing-in-action) by Hobson Lane, Cole Howard, and Hannes Hapke
@@ -39,6 +41,19 @@ Books
 	1. [Word2Vec and Word Embeddings in Python and Theano](https://www.amazon.com/Deep-Learning-Language-Processing-Embeddings-ebook/dp/B01KQ0ZN0A)
 	1. [From Word2Vec to GLoVe in Python and Theano](https://www.amazon.com/Deep-Learning-Language-Processing-Word2Vec-ebook/dp/B01KRBOO4Y/)
 	1. [Recursive Neural Networks: Recursive Neural (Tensor) Networks in Theano](https://www.amazon.com/Deep-Learning-Language-Processing-Recursive-ebook/dp/B01KS5AEXO)
+1. [Applied Natural Language Processing with Python](https://www.amazon.ca/Applied-Natural-Language-Processing-Python/dp/1484237323) by  Taweh Beysolow II
+1. [Deep Learning Cookbook](https://www.amazon.ca/Deep-Learning-Cookbook-Practical-Recipes/dp/149199584X) by Douwe Osinga
+1. [Deep Learning for Natural Language Processing: Creating Neural Networks with Python](https://www.amazon.ca/Deep-Learning-Natural-Language-Processing/dp/148423684X) by Palash Goyal, Sumit Pandey, Karan Jain
+1. [Machine Learning for Text](https://www.amazon.ca/Machine-Learning-Text-Charu-Aggarwal/dp/3319735306) by Charu C. Aggarwal
+1. [Natural Language Processing with TensorFlow](https://www.amazon.ca/Natural-Language-Processing-TensorFlow-language-ebook/dp/B077Q3VZFR) by Thushan Ganegedara
+1. [fastText Quick Start Guide: Get started with Facebook's library for text representation and classification](https://www.amazon.ca/fastText-Quick-Start-Guide-representation/dp/1789130999)
+1. [Hands-On Natural Language Processing with Python](https://www.amazon.ca/Hands-Natural-Language-Processing-Python/dp/178913949X)
+
+Tutorials
+-----
+
+1. [Text classification guide from Google](https://developers.google.com/machine-learning/guides/text-classification/)
+1. [Deep Learning for NLP with PyTorch](https://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html)
 
 Talks
 ----
@@ -54,7 +69,6 @@ Talks
 1. Using deep learning in natural language processing by Rob Romijnders from PyData Amsterdam 2017
 	- [video](https://www.youtube.com/watch?v=HVdPWoZ_swY)
 	- [slides](https://github.com/RobRomijnders/talks/blob/master/pydata_DL_NLP.pdf)
-1. Ali Ghodsi's lecture on word2vec [part 1](https://www.youtube.com/watch?v=TsEGsdVJjuA) and [part 2](https://www.youtube.com/watch?v=nuirUEmbaJU)
 1. [Richard Socher's talk on sentiment analysis, question answering, and sentence-image embeddings](https://www.youtube.com/watch?v=tdLmf8t4oqM)
 1. [Deep Learning, an interactive introduction for NLP-ers](http://www.slideshare.net/roelofp/220115dlmeetup)
 1. [Deep Natural Language Understanding](http://videolectures.net/deeplearning2016_cho_language_understanding/)
@@ -65,47 +79,58 @@ Talks
 
 Frameworks
 ----
-1. [Keras](https://keras.io/) - _The Python Deep Learning library_ Emphasis on user friendliness, modularity, easy extensibility, and Pythonic.
-1. [TensorFlow](https://www.tensorflow.org/) - A cross-platform, general purpose Machine Intelligence library with Python and C++ API.
-1. [Genism: Topic modeling for humans](https://pypi.python.org/pypi/gensim) - A Python package that includes word2vec and doc2vec implementations.
-1. [DyNet](https://github.com/clab/dynet) - _The Dynamic Neural Network Toolkit_ "work well with networks that have dynamic structures that change for every training instance".
-1. [Google’s original word2vec implementation](https://code.google.com/archive/p/word2vec/)
-1. [Deeplearning4j’s NLP framework](http://deeplearning4j.org/nlp) - Java implementation.
-1. [deepnl](https://github.com/attardi/deepnl) - A Python library for NLP based on Deep Learning neural network architecture.
-1. [PyTorch](http://pytorch.org/) - PyTorch is a deep learning framework that puts Python first. "Tensors and Dynamic neural networks in Python with strong GPU acceleration."
+1. [Overview of DL frameworks for NLP](https://medium.com/@datamonsters/13-deep-learning-frameworks-for-natural-language-processing-in-python-2b84a6b6cd98)
+1. General Frameworks
+	1. [Keras](https://keras.io/) - _The Python Deep Learning library_ Emphasis on user friendliness, modularity, easy extensibility, and Pythonic.
+	1. [TensorFlow](https://www.tensorflow.org/) - A cross-platform, general purpose Machine Intelligence library with Python and C++ API.
+	1. [PyTorch](http://pytorch.org/) - PyTorch is a deep learning framework that puts Python first. "Tensors and Dynamic neural networks in Python with strong GPU acceleration."
+
+1. Specific Frameworks
+	1. [SpaCy](https://spacy.io/) - A Python package designed for speed, getting things dones, and interoperates with other Deep Learning frameworks
+	1. [Genism: Topic modeling for humans](https://pypi.python.org/pypi/gensim) - A Python package that includes word2vec and doc2vec implementations.
+	1. [fasttext](https://github.com/facebookresearch/fastText) Facebook's library for fast text representation and classification.
+	1. Built on TensorFlow
+		1. [SyntaxNet](https://github.com/tensorflow/models/tree/master/research/syntaxnet) - A toolkit for natural language understanding (NLU).
+		1. [textsum](https://github.com/tensorflow/models/tree/master/research/textsum) - A Sequence-to-Sequence with Attention Model for Text Summarization.
+		1. [Skip-Thought Vectors](https://github.com/tensorflow/models/tree/master/research/skip_thoughts) implementation in TensorFlow.
+		1. [ActiveQA: Active Question Answering](https://github.com/google/active-qa) - Using reinforcement learning to train artificial agents for question answering
+		1. [BERT](https://github.com/google-research/bert) - Bidirectional Encoder Representations from Transformers for pre-trained models
+	1. Built on PyTorch
+		1. [PyText](https://github.com/facebookresearch/pytext) - A deep-learning based NLP modeling framework by Facebook
+		1. [AllenNLP](https://allennlp.org/) - An open-source NLP research library
+		1. [Flair](https://github.com/zalandoresearch/flair) - A very simple framework for state-of-the-art NLP
+		1. [fairseq](https://github.com/pytorch/fairseq) - A Sequence-to-Sequence Toolkit
+		1. [fastai](http://docs.fast.ai/text.html) - Simplifies training fast and accurate neural nets using modern best practices
+		1. [Transformer model](http://nlp.seas.harvard.edu/2018/04/03/attention.html) - Annotated notebook implementation
+	1. [Deeplearning4j’s NLP framework](http://deeplearning4j.org/nlp) - Java implementation.
+	1. [DyNet](https://github.com/clab/dynet) - _The Dynamic Neural Network Toolkit_ "work well with networks that have dynamic structures that change for every training instance".
+	1. [deepnl](https://github.com/attardi/deepnl) - A Python library for NLP based on Deep Learning neural network architecture.
 
 Papers
 ----
 1. [Deep or shallow, NLP is breaking out](http://dl.acm.org/citation.cfm?id=2874915) - General overview of how Deep Learning is impacting NLP.
-2. [Natural Language Processing from Research at Google](http://research.google.com/pubs/NaturalLanguageProcessing.html) - Not all Deep Learning (but mostly).
-2. [Distributed Representations of Words and Phrases and their Compositionality](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) - The original word2vec paper.
-3. [word2vec Parameter Learning Explained](https://arxiv.org/abs/1411.2738)
-4. [Distributed Representations of Sentences and Documents](http://cs.stanford.edu/~quocle/paragraph_vector.pdf)
-5. [Context Dependent Recurrent Neural Network Language Model](http://www.msr-waypoint.com/pubs/176926/rnn_ctxt.pdf)
-6. [Translation Modeling with Bidirectional Recurrent Neural Networks](https://www-i6.informatik.rwth-aachen.de/publications/download/936/SundermeyerMartinAlkhouliTamerWuebkerJoernNeyHermann--TranslationModelingwithBidirectionalRecurrentNeuralNetworks--2014.pdf)
-7. [Contextual LSTM (CLSTM) models for Large scale NLP tasks](https://arxiv.org/abs/1602.06291)
-8. [LSTM Neural Networks for Language Modeling](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.248.4448&rep=rep1&type=pdf)
-9. [Exploring the Limits of Language Modeling](http://arxiv.org/pdf/1602.02410.pdf)
-10. [Conversational Contextual Cues](https://arxiv.org/abs/1606.00372) - Models context and participants in conversations.
-11. [Sequence to sequence learning with neural networks](http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf)
-12. [Efficient Estimation of Word Representations in Vector Space](http://arxiv.org/pdf/1301.3781.pdf)
-13. [Learning Character-level Representations for Part-of-Speech Tagging](http://jmlr.org/proceedings/papers/v32/santos14.pdf)
-14. [Representation Learning for Text-level Discourse Parsing](http://www.cc.gatech.edu/~jeisenst/papers/ji-acl-2014.pdf)
-15. [Fast and Robust Neural Network Joint Models for Statistical Machine Translation](http://acl2014.org/acl2014/P14-1/pdf/P14-1129.pdf)
-16. [Parsing With Compositional Vector Grammars](http://www.socher.org/index.php/Main/ParsingWithCompositionalVectorGrammars)
-17. [Smart Reply: Automated Response Suggestion for Email](https://arxiv.org/abs/1606.04870)
-18. [Neural Architectures for Named Entity Recognition](https://arxiv.org/abs/1603.01360) - State-of-the-art performance in NER with bidirectional LSTM with a sequential conditional random layer and transition-based parsing with stack LSTMs.
-19. [GloVe: Global Vectors for Word Representation](http://www-nlp.stanford.edu/pubs/glove.pdf) - A "count-based"/co-occurrence model to learn word embeddings.
-20. [Grammar as a Foreign Language](https://arxiv.org/abs/1412.7449) - State-of-the-art syntactic constituency parsing using generic sequence-to-sequence approach.
-22. Skip-Thought Vectors - "unsupervised learning of a generic, distributed sentence encoder"
-    - [Paper](http://arxiv.org/abs/1506.06726)
-    - [Code](https://github.com/ryankiros/skip-thoughts)
+1. [Natural Language Processing from Research at Google](http://research.google.com/pubs/NaturalLanguageProcessing.html) - Not all Deep Learning (but mostly).
+1. [Context Dependent Recurrent Neural Network Language Model](http://www.msr-waypoint.com/pubs/176926/rnn_ctxt.pdf)
+1. [Translation Modeling with Bidirectional Recurrent Neural Networks](https://www-i6.informatik.rwth-aachen.de/publications/download/936/SundermeyerMartinAlkhouliTamerWuebkerJoernNeyHermann--TranslationModelingwithBidirectionalRecurrentNeuralNetworks--2014.pdf)
+1. [Contextual LSTM (CLSTM) models for Large scale NLP tasks](https://arxiv.org/abs/1602.06291)
+1. [LSTM Neural Networks for Language Modeling](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.248.4448&rep=rep1&type=pdf)
+1. [Exploring the Limits of Language Modeling](http://arxiv.org/pdf/1602.02410.pdf)
+1. [Conversational Contextual Cues](https://arxiv.org/abs/1606.00372) - Models context and participants in conversations.
+1. [Sequence to sequence learning with neural networks](http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf)
+1. [Efficient Estimation of Word Representations in Vector Space](http://arxiv.org/pdf/1301.3781.pdf)
+1. [Learning Character-level Representations for Part-of-Speech Tagging](http://jmlr.org/proceedings/papers/v32/santos14.pdf)
+1. [Representation Learning for Text-level Discourse Parsing](http://www.cc.gatech.edu/~jeisenst/papers/ji-acl-2014.pdf)
+1. [Fast and Robust Neural Network Joint Models for Statistical Machine Translation](http://acl2014.org/acl2014/P14-1/pdf/P14-1129.pdf)
+1. [Parsing With Compositional Vector Grammars](http://www.socher.org/index.php/Main/ParsingWithCompositionalVectorGrammars)
+1. [Smart Reply: Automated Response Suggestion for Email](https://arxiv.org/abs/1606.04870)
+1. [Neural Architectures for Named Entity Recognition](https://arxiv.org/abs/1603.01360) - State-of-the-art performance in NER with bidirectional LSTM with a sequential conditional random layer and transition-based parsing with stack LSTMs.
+1. [Grammar as a Foreign Language](https://arxiv.org/abs/1412.7449) - State-of-the-art syntactic constituency parsing using generic sequence-to-sequence approach.
 
 Blog Posts
 ----
 
-1. [the morning paper: The amazing power of word vectors](https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/) - Overview of word vectors.
-1. [Word embeddings in 2017: Trends and future directions](http://ruder.io/word-embeddings-2017/)
+1. [Natural Language Processing (NLP) progress](https://nlpprogress.com/) Tracking the most common NLP tasks, including the datasets and the current state-of-the-art 
+1. [A Review of the Recent History of Natural Language Processing](http://blog.aylien.com/a-review-of-the-recent-history-of-natural-language-processing/)
 1. [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
 1. [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 1. [Neural Language Modeling From Scratch](http://ofir.io/Neural-Language-Modeling-From-Scratch/?a=1)
@@ -115,13 +140,6 @@ Blog Posts
 1. [Deep Learning NLP Best Practices](http://ruder.io/deep-learning-nlp-best-practices/index.html)
 1. [7 types of Artificial Neural Networks for Natural Language Processing](https://medium.com/@datamonsters/artificial-neural-networks-for-natural-language-processing-part-1-64ca9ebfa3b2)
 1. [How to solve 90% of NLP problems: a step-by-step guide](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
-
-Researchers
-----
-1. [Christopher Manning](http://nlp.stanford.edu/manning/)
-2. [Ali Ghodsi](https://uwaterloo.ca/data-science/)
-3. [Richard Socher](http://www.socher.org/)
-4. [Yoshua Bengio](http://www.iro.umontreal.ca/~bengioy/yoshua_en/index.html)
 
 Datasets
 ----
@@ -138,10 +156,26 @@ Datasets
 	1. [Microsoft's WikiQA Open Domain Question Answering](https://www.microsoft.com/en-us/research/publication/wikiqa-a-challenge-dataset-for-open-domain-question-answering/)
 	1. [Stanford Question Answering Dataset (SQuAD)](https://rajpurkar.github.io/SQuAD-explorer/) - covering reading comprehension
 
-Demos
+Word Embeddings and friends
 ----
+1. [The amazing power of word vectors](https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/) from The Morning Paper blog
+1. [Distributed Representations of Words and Phrases and their Compositionality](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) - The original word2vec paper.
+1. [word2vec Parameter Learning Explained](https://arxiv.org/abs/1411.2738) An elucidating explanation of word2vec training
+1. [Word embeddings in 2017: Trends and future directions](http://ruder.io/word-embeddings-2017/)
+1. [Learning Word Vectors for 157 Languages](https://arxiv.org/abs/1802.06893)
+1. [GloVe: Global Vectors for Word Representation](http://www-nlp.stanford.edu/pubs/glove.pdf) - A "count-based"/co-occurrence model to learn word embeddings.
+1.  Doc2Vec
+	- [A gentle introduction to Doc2Vec](https://medium.com/scaleabout/a-gentle-introduction-to-doc2vec-db3e8c0cce5e)
+	- [Distributed Representations of Sentences and Documents](https://cs.stanford.edu/~quocle/paragraph_vector.pdf)
+1. [Dynamic word embeddings for evolving semantic discovery](https://blog.acolyer.org/2018/02/22/dynamic-word-embeddings-for-evolving-semantic-discovery/) from The Morning Paper blog
+1. Ali Ghodsi's lecture on word2vec: 
+	- [part 1](https://www.youtube.com/watch?v=TsEGsdVJjuA)
+	- [part 2](https://www.youtube.com/watch?v=nuirUEmbaJU)
 1. [word2vec analogy demo](http://deeplearner.fz-qqq.net/)
 1. [TensorFlow Embedding Projector of word vectors](http://projector.tensorflow.org/)
+1. Skip-Thought Vectors - "unsupervised learning of a generic, distributed sentence encoder"
+    - [Paper](http://arxiv.org/abs/1506.06726)
+    - [Code](https://github.com/ryankiros/skip-thoughts)
 
 -----
 Contributing
